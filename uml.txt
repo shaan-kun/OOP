@@ -1,0 +1,56 @@
+class Actor {
+-__count
+-__id
+-__full_name
+-__short_name
+-__rank
+-__experience
++setFullName()
++setShortName()
++setRank()
++setExperience()
++getID()
++getFullName()
++getShortName()
++getRank()
++getExperience()
++__str__()
+}
+
+class Role {
+-__count
+-__id
+-__name
+-__actor
+-__contract_value
++setName()
++setActor()
++setContractValue()
++getID()
++getName()
++getActor()
++getContractValue()
++__str__()
+}
+
+class Show {
+-__count
+-__id
+-__name
+-__year
+-__budget
+-__roles
++setName()
++setYear()
++setBudget()
++setRoles()
++getID()
++getName()
++getYear()
++getBudget()
++getRoles()
++__str__()
+}
+
+Role o-u- Actor
+Show o-u- Role
