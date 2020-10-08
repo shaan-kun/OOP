@@ -3,6 +3,8 @@ from role import Role
 from show import Show
 
 
+# пример работы с классами
+
 actors = [
     Actor("Иванов Иван Иванович", "Иванов И.И.", 5, 3),
     Actor("Петров Пётр Петрович", "Петров П.П.", 5, 1),
